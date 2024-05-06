@@ -88,7 +88,7 @@ void AAuraPlayerController::BeginPlay()
 	}
 
 	bShowMouseCursor = true;
-	DefaultMouseCursor = EMouseCursor::CardinalCross;
+	DefaultMouseCursor = EMouseCursor::Default;
 
 	FInputModeGameAndUI InputModeData;
 	InputModeData.SetLockMouseToViewportBehavior(EMouseLockMode::DoNotLock);
