@@ -38,8 +38,6 @@ public:
  FGameplayTag Message_HealthPotion;
  FGameplayTag Message_ManaCrystal;
  FGameplayTag Message_ManaPotion;
- 
-protected:
 
 private:
  static FAuraGameplayTags GameplayTags;
