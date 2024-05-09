@@ -65,6 +65,11 @@ void FAuraGameplayTags::InitialiseNativeGameplayTags()
 		FString("Maximum amount of Mana obtainable"));
 
 	/*
+	 * Event Tag Definitions
+	 */
+	GameplayTags.Event_Montage_FireBolt = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Event.Montage.FireBolt"));
+
+	/*
 	 * Messages Tag Definitions
 	 */
 	GameplayTags.Message_Burning = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Message.Burning"));

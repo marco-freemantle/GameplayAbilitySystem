@@ -33,6 +33,8 @@ public:
  FGameplayTag Attributes_Secondary_MaxHealth;
  FGameplayTag Attributes_Secondary_MaxMana;
 
+ FGameplayTag Event_Montage_FireBolt;
+
  FGameplayTag Message_Burning;
  FGameplayTag Message_HealthCrystal;
  FGameplayTag Message_HealthPotion;
